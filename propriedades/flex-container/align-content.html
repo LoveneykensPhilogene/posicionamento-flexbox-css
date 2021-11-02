@@ -7,11 +7,151 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fundamentos -align content</title>
   <style>
+    .container {
+      max-width: 300px;
+      display: flex;
+      height: 900px;
+      flex-wrap: wrap;
+      border: 1px solid black;
+    }
 
+    .item {
+      background-color: orangered;
+      padding: 0 5px;
+      flex: 1;
+      text-align: center;
+      color: white;
+      margin: 5px;
+    }
+
+    .stretch {
+      align-content: stretch;
+    }
+
+    .center {
+      align-content: center;
+    }
+
+    .flex-start {
+      align-content: flex-start;
+    }
+
+    .flex-end {
+      align-content: flex-end;
+    }
+
+    .space-around {
+      align-content: space-around;
+    }
+
+    .space-between {
+      align-content: space-between;
+    }
   </style>
 </head>
 
 <body>
+  <h3>stretch</h3>
+  <div class="container stretch">
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. </div>
+    <div class="item">criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item"> O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags .</div>
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags . Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+  </div>
+
+  <h3>center</h3>
+  <div class="container center">
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. </div>
+    <div class="item">criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item"> O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags .</div>
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags . Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+  </div>
+
+  <h3>flex-start</h3>
+  <div class="container flex-start">
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. </div>
+    <div class="item">criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item"> O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags .</div>
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags . Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+  </div>
+
+  <h3>flex-end</h3>
+  <div class="container flex-end">
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. </div>
+    <div class="item">criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item"> O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags .</div>
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags . Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+  </div>
+
+  <h3>space-around</h3>
+  <div class="container space-around">
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. </div>
+    <div class="item">criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item"> O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags .</div>
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags . Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+  </div>
+
+  <h3>space-between</h3>
+  <div class="container space-between">
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. </div>
+    <div class="item">criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item"> O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags .</div>
+    <div class="item">Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode
+      ser aplicado diretamente nas tags ou ficar contido dentro das tags . Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+    <div class="item">. Também é possível, em vez de colocar a
+      formatação dentro do documento, criar um link para um arquivo CSS que contém os estilos.</div>
+  </div>
 
 </body>
 
