@@ -26,26 +26,7 @@
 
 </div>
 
-<div>
 
-<ul>
-
-<h2>Flex Item</h2>
-
-<p>-São os elementos filhos diretos do Flex Container. É também
-podem se tornar Flex Container.</p>
-<strong>- Propriedades relacionadades</strong>
-
-<li>flex-grow</li>
-<li>flex-basis</li>
-<li>flex-shrink</li>
-<li>flex</li>
-<li>order</li>
-<li>align-self</li>
-
-</ul>
-
-</div>
 <div>
 
 <ul>
