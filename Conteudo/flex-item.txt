@@ -1,0 +1,11 @@
+-FLEX ITEM
+	-São os elementos filhos diretos do Flex Container. É também
+podem se tornar Flex Container.
+
+	-Proriedades relacionadas
+	.flex-grow
+	.flex-basis
+	.flex-shrink
+	.flex
+	.order
+	.align-self

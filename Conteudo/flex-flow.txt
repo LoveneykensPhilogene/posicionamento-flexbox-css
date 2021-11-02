@@ -1,0 +1,7 @@
+-FLEX FLOW
+	- É um atalho para as propriedade flex-direction e flex-wrap.
+
+	porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column, mantemos o padrao do flex-wrap que é no wrap.
+
+	
+	

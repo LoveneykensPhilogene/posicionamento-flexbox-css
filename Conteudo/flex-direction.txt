@@ -1,0 +1,14 @@
+-FLEX DIRECTION
+	-É a propriedade que estabeleceo eixo principal do container,
+definindo assim a direção que os flex items são colocados no flex container.
+
+	-EIXOS
+
+	.Row (padrão) : à direção do texto, esquerda para direita.
+
+		.row-reverse : sentido oposto à direção do texto.
+
+	.Column : ordenação de cima para baixo, em coluna unica.
+
+		.column-reverse : ordenação inversa, de baixo para cima.
+	
