@@ -7,11 +7,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fundamentos - flex basis</title>
   <style>
+    .flex-container {
+      max-width: 500px;
+      border: 1px solid black;
+      display: flex;
+    }
 
+    .item {
+      background-color: coral;
+      color: white;
+      text-align: center;
+      margin: 5px;
+    }
+
+    .flex-grow-1 {
+      flex-grow: 1;
+    }
+
+    .flex-grow-2 {
+      flex-grow: 2;
+    }
+
+    .flex-grow-0 {
+      flex-grow: 0;
+    }
+
+    .basis-auto {
+      flex-basis: 0;
+    }
+
+    .basis-0 {
+      flex-basis: auto;
+    }
+
+    .w100 {
+      flex-basis: 100px;
+    }
   </style>
 </head>
 
 <body>
+  <h3>flex-basis auto</h3>
+  <div class="flex-container">
+    <div class="item basis-auto">A</div>
+    <div class="item basis-auto">BBB</div>
+    <div class="item basis-auto">C</div>
+  </div>
+
+  <h3>flex-basis & flex-grow 0</h3>
+  <div class="flex-container">
+    <div class="item basis-auto flex-grow-0">A</div>
+    <div class="item basis-auto flex-grow-0">BBB</div>
+    <div class="item basis-auto flex-grow-0">C</div>
+    <div class="item basis-auto flex-grow-0">EFG</div>
+  </div>
+
+  <h3>flex-basis auto & flex-grow 1</h3>
+  <div class="flex-container">
+    <div class="item basis-auto flex-grow-1">A</div>
+    <div class="item basis-auto flex-grow-1">BBB</div>
+    <div class="item basis-auto flex-grow-1">C</div>
+    <div class="item basis-auto flex-grow-1">EFG</div>
+  </div>
+
+  <h3>flex-basis auto & flex-grow 2</h3>
+  <div class="flex-container">
+    <div class="item basis-auto flex-grow-1">A</div>
+    <div class="item basis-auto flex-grow-1">BB</div>
+    <div class="item basis-auto flex-grow-1">C</div>
+    <div class="item basis-auto flex-grow-2">EFG</div>
+  </div>
+
+
+  <h3>flex-basis 0 & flex-grow 1</h3>
+  <div class="flex-container">
+    <div class="item basis-0 flex-grow-1">A</div>
+    <div class="item basis-0 flex-grow-1">BB</div>
+    <div class="item basis-0 flex-grow-1">C</div>
+    <div class="item basis-0 flex-grow-1">EFG</div>
+  </div>
+
+  <h3>basis + width</h3>
+  <div class="flex-container">
+    <div class="item w100">AAAAAA</div>
+    <div class="item w100">BBBB</div>
+    <div class="item w100">C</div>
+    <div class="item w100">DEF</div>
+  </div>
+
+  <h3>basis + width+flex-grow</h3>
+  <div class="flex-container">
+    <div class="item w100  flex-grow-1">AAAAAA</div>
+    <div class="item w100 flex-grow-1">BBBB</div>
+    <div class="item w100 flex-grow-1">C</div>
+    <div class="item w100 flex-grow-1">DEF</div>
+
+  </div>
 
 </body>
 
